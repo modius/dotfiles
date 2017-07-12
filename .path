@@ -1,2 +1,4 @@
+export GOPATH="/Users/modius/go"
+
 export PATH="/usr/local/bin:$PATH"
 export PATH="$GOPATH/bin:$PATH"
