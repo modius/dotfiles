@@ -2,8 +2,12 @@
 
 ## Additional config
 ```
-$ git config --global user.name "Geoff Bowers"
-$ git config --global user.email "modius@daemon.com.au"
+## Git Config
+git config --global user.name "Geoff Bowers"
+git config --global user.email "modius@daemon.com.au"
+
+## docker-workbench
+go get -u github.com/justincarter/docker-workbench
 ```
 
 ----
