@@ -19,12 +19,8 @@ brew 'findutils'
 # Install Bash 4
 brew 'bash'
 
-# Install more recent versions of some macOS tools
-brew 'homebrew/dupes/grep'
-# ^^ apparently this is deprecated
-# Warning: Use grep instead of deprecated homebrew/dupes/grep
-
 # Install Binaries
+brew 'grep'
 brew 'awscli'
 brew 'git'
 #brew 'hub' # github git cli wrapper
@@ -52,12 +48,18 @@ cask 'tower'
 cask 'kaleidoscope'
 cask 'transmit'
 #cask 'vagrant'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
 cask 'vlc'
 cask 'skitch'
 cask 'evernote'
 cask 'zoomus' # zoom video
+
+# Docker Development
+cask 'virtualbox'
+cask 'virtualbox-extension-pack'
+brew 'docker-machine'
+brew 'docker'
+brew 'docker-compose'
+brew 'go'
 
 
 # Quicklook
